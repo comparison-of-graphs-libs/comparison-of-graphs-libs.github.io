@@ -79,7 +79,7 @@
               return that
             }    
             $(document).ready(function(){
-              var sys = arbor.ParticleSystem(1000, 600, 0.5)
+              var sys = arbor.ParticleSystem(1000, 80, 0.9)
               sys.parameters({gravity:false})
               sys.renderer = Renderer("#viewport")
               for (let edge of edges) {
