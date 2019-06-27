@@ -1,5 +1,3 @@
-
-var dagre = require("dagre");
 var g = new dagre.graphlib.Graph();
 g.setGraph({});
 g.setDefaultEdgeLabel(function() { return {}; });
